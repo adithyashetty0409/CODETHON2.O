@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🎓 Smart Campus Service Management System (SMS)
 **College Codethon 2026 Submission**
 
@@ -249,4 +249,4 @@ NODE_ENV=development
 =======
 # CODETHON2.O
 Smart Campus Service Management System 
->>>>>>> edbdf3df87d2c31ff94631aac97e2c82edae6388
+
