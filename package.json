@@ -1,0 +1,23 @@
+{
+  "name": "smart-campus-service-management-system",
+  "version": "1.0.0",
+  "description": "Smart Campus Service Management System for College Codethon 2026",
+  "private": true,
+  "scripts": {
+    "start:backend": "npm --prefix backend start",
+    "start:frontend": "npm --prefix frontend run dev",
+    "seed": "npm --prefix backend run seed",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "smart-campus",
+    "react",
+    "node",
+    "express",
+    "mongodb",
+    "tailwind",
+    "codethon"
+  ],
+  "author": "Smart Campus Development Team",
+  "license": "MIT"
+}

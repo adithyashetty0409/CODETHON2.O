@@ -1,0 +1,974 @@
+{
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "name": "Dr. Admin Sharma",
+      "studentId": "FAC-DIR-001",
+      "email": "admin@campus.edu",
+      "password": "$2b$10$Cr06CffNZ.LIMYE1kSxsYe0BtEkqBY2POVix9LQvz/NAa5aRe5ABu",
+      "department": "Campus Administration",
+      "semester": "Faculty / Staff",
+      "role": "admin",
+      "createdAt": "2026-01-15T09:00:00.000Z",
+      "_id": "usr-admin-1"
+    },
+    {
+      "id": "usr-stu-1",
+      "name": "Alex Morgan",
+      "studentId": "STU-2024-001",
+      "email": "alex@student.edu",
+      "password": "$2b$10$.iFogt4lXIX5THuRPsh6d.IrhEDU.FYFJ2uqH0nICwOz652/6zi/W",
+      "department": "Computer Science",
+      "semester": "Semester 6",
+      "role": "student",
+      "createdAt": "2026-02-01T10:00:00.000Z",
+      "_id": "usr-stu-1"
+    },
+    {
+      "id": "usr-stu-2",
+      "name": "Priya Patel",
+      "studentId": "STU-2024-042",
+      "email": "priya@student.edu",
+      "password": "$2b$10$orLRqBU191oRGlqAwgMXdO3Qv/pMMf9Bqkt/ZTtVpwzajII5et7eG",
+      "department": "Electronics & Communication",
+      "semester": "Semester 4",
+      "role": "student",
+      "createdAt": "2026-02-05T11:00:00.000Z",
+      "_id": "usr-stu-2"
+    },
+    {
+      "id": "usr-stu-3",
+      "name": "Rohit Verma",
+      "studentId": "STU-2024-108",
+      "email": "rohit@student.edu",
+      "password": "$2b$10$x6RoYxaCajhniGzPK2.RNeD553CJyr0RhcQMU9YkJZ8iN/hODbygu",
+      "department": "Mechanical Engineering",
+      "semester": "Semester 8",
+      "role": "student",
+      "createdAt": "2026-02-10T09:30:00.000Z",
+      "_id": "usr-stu-3"
+    },
+    {
+      "id": "usr-stu-4",
+      "name": "Sarah Jenkins",
+      "studentId": "STU-2025-015",
+      "email": "sarah@student.edu",
+      "password": "$2b$10$9DxvhMxEb2gSnm9QgvVMiOwdg.jFLCFxPP37anTfhhj3gwM2juLlK",
+      "department": "Information Technology",
+      "semester": "Semester 2",
+      "role": "student",
+      "createdAt": "2026-03-01T14:15:00.000Z",
+      "_id": "usr-stu-4"
+    },
+    {
+      "_id": "usr-1791278302394-88",
+      "id": "usr-1791278302394",
+      "name": "Test Student Kevin",
+      "studentId": "STU-2026-999",
+      "email": "kevin.test@student.edu",
+      "password": "$2b$10$jdtJ.6YnvZudCNjsv4T//eAaMnBIFoc3yAUUrYFWCguhYkXOTRtXi",
+      "department": "Computer Science",
+      "semester": "Semester 4",
+      "role": "student",
+      "createdAt": "2026-10-06T09:18:22.394Z"
+    },
+    {
+      "_id": "usr-1791278874193-648",
+      "id": "usr-1791278874193",
+      "name": "adithya",
+      "studentId": "4SN23CS008",
+      "email": "adithyashetty9579@gmail.com",
+      "password": "$2b$10$VF7MtjnW8hfGw.yqLLFRlegnqDwKNwaSpOzqNmQ4zWQJJB6tsAiFC",
+      "department": "Computer Science",
+      "semester": "Semester 1",
+      "role": "student",
+      "createdAt": "2026-10-06T09:27:54.193Z"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-1",
+      "name": "Certificate Request",
+      "description": "Apply for Bonafide, Transcript, Course Completion, or Medium of Instruction certificates.",
+      "department": "Administration Department",
+      "icon": "FileText",
+      "slaDays": 3,
+      "active": true,
+      "_id": "srv-1"
+    },
+    {
+      "id": "srv-2",
+      "name": "Lab Equipment Request",
+      "description": "Book specialized computing resources, microcontrollers, testing rigs, or 3D printers.",
+      "department": "Laboratory Department",
+      "icon": "Cpu",
+      "slaDays": 2,
+      "active": true,
+      "_id": "srv-2"
+    },
+    {
+      "id": "srv-3",
+      "name": "Maintenance Request",
+      "description": "Report electrical, plumbing, projector, furniture, or AC issues across campus facilities.",
+      "department": "Maintenance Department",
+      "icon": "Wrench",
+      "slaDays": 1,
+      "active": true,
+      "_id": "srv-3"
+    },
+    {
+      "id": "srv-4",
+      "name": "Leave Application",
+      "description": "Submit formal medical leave, on-duty approval, or academic absence requests.",
+      "department": "HOD/Academic Department",
+      "icon": "CalendarCheck",
+      "slaDays": 2,
+      "active": true,
+      "_id": "srv-4"
+    },
+    {
+      "id": "srv-5",
+      "name": "ID Card Request",
+      "description": "Request replacement smart cards, RFID campus passes, or hostel access tokens.",
+      "department": "Administration Department",
+      "icon": "CreditCard",
+      "slaDays": 4,
+      "active": true,
+      "_id": "srv-5"
+    },
+    {
+      "id": "srv-6",
+      "name": "Library Service",
+      "description": "Book research cabins, request inter-library journal loans, or resolve book dues.",
+      "department": "Library Department",
+      "icon": "BookOpen",
+      "slaDays": 2,
+      "active": true,
+      "_id": "srv-6"
+    },
+    {
+      "id": "srv-7",
+      "name": "Other College Service",
+      "description": "General administrative inquiries, lost-and-found claims, or student welfare matters.",
+      "department": "General Administration",
+      "icon": "HelpCircle",
+      "slaDays": 3,
+      "active": true,
+      "_id": "srv-7"
+    }
+  ],
+  "requests": [
+    {
+      "_id": "req-1791282201446",
+      "requestId": "REQ-20261006-800",
+      "studentId": "usr-stu-1",
+      "studentName": "Alex Morgan",
+      "studentEmail": "alex@student.edu",
+      "studentRoll": "STU-2024-001",
+      "serviceName": "Certificate Request",
+      "subject": "dfflk",
+      "description": "dfkjd",
+      "department": "Administration Department",
+      "assignedTo": {
+        "name": "Unassigned",
+        "role": "",
+        "department": "Administration Department"
+      },
+      "priority": "Urgent",
+      "status": "Pending",
+      "location": "",
+      "attachmentName": "",
+      "attachmentUrl": "",
+      "estimatedCompletion": "2026-10-09T10:23:21.446Z",
+      "completedAt": null,
+      "remarks": "",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Alex Morgan (Student)",
+          "timestamp": "2026-10-06T10:23:21.446Z",
+          "remarks": "Request initiated by student."
+        }
+      ],
+      "createdAt": "2026-10-06T10:23:21.446Z",
+      "updatedAt": "2026-10-06T10:23:21.446Z"
+    },
+    {
+      "_id": "req-1791281977029",
+      "requestId": "REQ-20261006-563",
+      "studentId": "usr-stu-1",
+      "studentName": "Alex Morgan",
+      "studentEmail": "alex@student.edu",
+      "studentRoll": "STU-2024-001",
+      "serviceName": "Certificate Request",
+      "subject": "bonafaid certificate",
+      "description": "ggsrgssr",
+      "department": "Administration Department",
+      "assignedTo": {
+        "name": "Unassigned",
+        "role": "",
+        "department": "Administration Department"
+      },
+      "priority": "Normal",
+      "status": "Pending",
+      "location": "cslab",
+      "attachmentName": "",
+      "attachmentUrl": "",
+      "estimatedCompletion": "2026-10-09T10:19:37.029Z",
+      "completedAt": null,
+      "remarks": "",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Alex Morgan (Student)",
+          "timestamp": "2026-10-06T10:19:37.029Z",
+          "remarks": "Request initiated by student."
+        }
+      ],
+      "createdAt": "2026-10-06T10:19:37.029Z",
+      "updatedAt": "2026-10-06T10:19:37.029Z"
+    },
+    {
+      "_id": "req-1791278973298",
+      "requestId": "REQ-20261006-926",
+      "studentId": "usr-1791278874193-648",
+      "studentName": "adithya",
+      "studentEmail": "adithyashetty9579@gmail.com",
+      "studentRoll": "4SN23CS008",
+      "serviceName": "Certificate Request",
+      "subject": "Bonafaid certificate",
+      "description": "good",
+      "department": "Administration Department",
+      "assignedTo": {
+        "name": "Unassigned",
+        "role": "",
+        "department": "Administration Department"
+      },
+      "priority": "Urgent",
+      "status": "Pending",
+      "location": "CS Lab",
+      "attachmentName": "Deloitte.pdf",
+      "attachmentUrl": "",
+      "estimatedCompletion": "2026-10-09T09:29:33.298Z",
+      "completedAt": null,
+      "remarks": "",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "adithya (Student)",
+          "timestamp": "2026-10-06T09:29:33.298Z",
+          "remarks": "Request initiated by student."
+        }
+      ],
+      "createdAt": "2026-10-06T09:29:33.298Z",
+      "updatedAt": "2026-10-06T09:29:33.298Z"
+    },
+    {
+      "_id": "req-1791278302507",
+      "requestId": "REQ-20261006-863",
+      "studentId": "usr-1791278302394-88",
+      "studentName": "Test Student Kevin",
+      "studentEmail": "kevin.test@student.edu",
+      "studentRoll": "STU-2026-999",
+      "serviceName": "Lab Equipment Request",
+      "subject": "GPU Workstation Allocation for Thesis",
+      "description": "Need access to RTX 4090 lab workstation for deep learning training run.",
+      "department": "Laboratory Department",
+      "assignedTo": {
+        "name": "Dr. K. Raman",
+        "role": "Lab In-Charge",
+        "department": "Laboratory Department"
+      },
+      "priority": "High",
+      "status": "Completed",
+      "location": "Turing Lab Room 302",
+      "attachmentName": "research_abstract.pdf",
+      "attachmentUrl": "",
+      "estimatedCompletion": "2026-10-08T09:18:22.507Z",
+      "completedAt": "2026-10-06T09:18:22.622Z",
+      "remarks": "Workstation handover completed.",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Test Student Kevin (Student)",
+          "timestamp": "2026-10-06T09:18:22.507Z",
+          "remarks": "Request initiated by student."
+        },
+        {
+          "action": "Assigned to Dr. K. Raman",
+          "previousStatus": "Pending",
+          "newStatus": "Assigned",
+          "changedBy": "Dr. Admin Sharma (Admin)",
+          "timestamp": "2026-10-06T09:18:22.610Z",
+          "remarks": "Allocated bench #4 and server login."
+        },
+        {
+          "action": "Status changed to In Progress",
+          "previousStatus": "Assigned",
+          "newStatus": "In Progress",
+          "changedBy": "Dr. Admin Sharma (Admin)",
+          "timestamp": "2026-10-06T09:18:22.617Z",
+          "remarks": "Hardware provisioned and setup in progress."
+        },
+        {
+          "action": "Status changed to Completed",
+          "previousStatus": "In Progress",
+          "newStatus": "Completed",
+          "changedBy": "Dr. Admin Sharma (Admin)",
+          "timestamp": "2026-10-06T09:18:22.622Z",
+          "remarks": "Workstation handover completed."
+        }
+      ],
+      "createdAt": "2026-10-06T09:18:22.507Z",
+      "updatedAt": "2026-10-06T09:18:22.622Z",
+      "isOverdue": false
+    },
+    {
+      "id": "req-001",
+      "requestId": "REQ-20261001-001",
+      "studentId": "usr-stu-1",
+      "studentName": "Alex Morgan",
+      "studentEmail": "alex@student.edu",
+      "studentRoll": "STU-2024-001",
+      "serviceName": "Certificate Request",
+      "subject": "Urgent Bonafide Certificate for Visa Application",
+      "description": "Need bonafide certificate stating student status and expected graduation date for Schengen visa application.",
+      "department": "Administration Department",
+      "assignedTo": {
+        "name": "Ms. Sunita Rao",
+        "role": "Head Registrar",
+        "department": "Administration Department"
+      },
+      "priority": "Urgent",
+      "status": "In Progress",
+      "location": "Admin Block, Ground Floor",
+      "attachmentName": "passport_scan.pdf",
+      "estimatedCompletion": "2026-10-07T08:42:33.822Z",
+      "completedAt": null,
+      "remarks": "Document verification in progress with examination branch.",
+      "createdAt": "2026-10-04T08:42:33.822Z",
+      "updatedAt": "2026-10-05T20:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Alex Morgan (Student)",
+          "timestamp": "2026-10-04T08:42:33.822Z",
+          "remarks": "Request initiated by student."
+        },
+        {
+          "action": "Assigned to Department",
+          "previousStatus": "Pending",
+          "newStatus": "Assigned",
+          "changedBy": "System Auto-Router",
+          "timestamp": "2026-10-04T09:42:33.822Z",
+          "remarks": "Assigned to Administration Department."
+        },
+        {
+          "action": "Assigned to Officer",
+          "previousStatus": "Assigned",
+          "newStatus": "In Progress",
+          "changedBy": "Dr. Admin Sharma",
+          "timestamp": "2026-10-05T12:42:33.822Z",
+          "remarks": "Assigned to Ms. Sunita Rao. Verification started."
+        }
+      ],
+      "_id": "req-001"
+    },
+    {
+      "id": "req-002",
+      "requestId": "REQ-20261002-002",
+      "studentId": "usr-stu-1",
+      "studentName": "Alex Morgan",
+      "studentEmail": "alex@student.edu",
+      "studentRoll": "STU-2024-001",
+      "serviceName": "Lab Equipment Request",
+      "subject": "GPU Server Allocation for Deep Learning Project",
+      "description": "Requesting access to NVIDIA A100 workstation for Capstone project model training for 3 days.",
+      "department": "Laboratory Department",
+      "assignedTo": {
+        "name": "Dr. K. Raman",
+        "role": "Lab In-Charge",
+        "department": "Laboratory Department"
+      },
+      "priority": "High",
+      "status": "Completed",
+      "location": "Turing Computing Lab, Room 402",
+      "attachmentName": "project_proposal.pdf",
+      "estimatedCompletion": "2026-10-05T08:42:33.822Z",
+      "completedAt": "2026-10-05T22:42:33.822Z",
+      "remarks": "Credentials and SSH access token generated and sent to student email.",
+      "createdAt": "2026-10-02T08:42:33.822Z",
+      "updatedAt": "2026-10-05T22:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Alex Morgan",
+          "timestamp": "2026-10-02T08:42:33.822Z",
+          "remarks": "Initial request submitted."
+        },
+        {
+          "action": "Assigned",
+          "previousStatus": "Pending",
+          "newStatus": "Assigned",
+          "changedBy": "Dr. Admin Sharma",
+          "timestamp": "2026-10-03T00:42:33.822Z",
+          "remarks": "Assigned to Dr. K. Raman."
+        },
+        {
+          "action": "Work Started",
+          "previousStatus": "Assigned",
+          "newStatus": "In Progress",
+          "changedBy": "Dr. K. Raman",
+          "timestamp": "2026-10-04T08:42:33.822Z",
+          "remarks": "Configuring node environment."
+        },
+        {
+          "action": "Completed",
+          "previousStatus": "In Progress",
+          "newStatus": "Completed",
+          "changedBy": "Dr. K. Raman",
+          "timestamp": "2026-10-05T22:42:33.822Z",
+          "remarks": "Access provisioned successfully."
+        }
+      ],
+      "_id": "req-002"
+    },
+    {
+      "id": "req-003",
+      "requestId": "REQ-20261003-003",
+      "studentId": "usr-stu-2",
+      "studentName": "Priya Patel",
+      "studentEmail": "priya@student.edu",
+      "studentRoll": "STU-2024-042",
+      "serviceName": "Maintenance Request",
+      "subject": "Projector flickering in Seminar Hall 3",
+      "description": "HDMI display keeps dropping and projector bulb makes loud humming sound during lectures.",
+      "department": "Maintenance Department",
+      "assignedTo": {
+        "name": "Ramesh Kumar",
+        "role": "AV Technician",
+        "department": "Maintenance Department"
+      },
+      "priority": "Normal",
+      "status": "In Progress",
+      "location": "Academic Block A, Seminar Hall 3",
+      "attachmentName": "",
+      "estimatedCompletion": "2026-10-08T08:42:33.822Z",
+      "completedAt": null,
+      "remarks": "Replacement HDMI cable and bulb ordered from campus inventory.",
+      "createdAt": "2026-10-04T20:42:33.822Z",
+      "updatedAt": "2026-10-06T02:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Priya Patel",
+          "timestamp": "2026-10-04T20:42:33.822Z",
+          "remarks": "Submitted by student."
+        },
+        {
+          "action": "Assigned",
+          "previousStatus": "Pending",
+          "newStatus": "Assigned",
+          "changedBy": "System Auto-Router",
+          "timestamp": "2026-10-05T02:42:33.822Z",
+          "remarks": "Assigned to Maintenance Department."
+        },
+        {
+          "action": "Status Updated",
+          "previousStatus": "Assigned",
+          "newStatus": "In Progress",
+          "changedBy": "Ramesh Kumar",
+          "timestamp": "2026-10-06T02:42:33.822Z",
+          "remarks": "Technician inspected venue."
+        }
+      ],
+      "_id": "req-003"
+    },
+    {
+      "id": "req-004",
+      "requestId": "REQ-20261004-004",
+      "studentId": "usr-stu-2",
+      "studentName": "Priya Patel",
+      "studentEmail": "priya@student.edu",
+      "studentRoll": "STU-2024-042",
+      "serviceName": "Leave Application",
+      "subject": "Medical Leave for 3 Days due to Viral Fever",
+      "description": "Requesting permission to take leave from Oct 4 to Oct 6. Doctor certificate attached.",
+      "department": "HOD/Academic Department",
+      "assignedTo": {
+        "name": "Prof. Anjali Mehta",
+        "role": "ECE Dept HOD",
+        "department": "HOD/Academic Department"
+      },
+      "priority": "High",
+      "status": "Completed",
+      "location": "ECE Department",
+      "attachmentName": "medical_certificate.jpg",
+      "estimatedCompletion": "2026-10-05T20:42:33.822Z",
+      "completedAt": "2026-10-06T00:42:33.822Z",
+      "remarks": "Leave approved. Student should submit lab records on return.",
+      "createdAt": "2026-10-03T08:42:33.822Z",
+      "updatedAt": "2026-10-06T00:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Priya Patel",
+          "timestamp": "2026-10-03T08:42:33.822Z",
+          "remarks": "Leave request filed."
+        },
+        {
+          "action": "Assigned",
+          "previousStatus": "Pending",
+          "newStatus": "Assigned",
+          "changedBy": "System Auto-Router",
+          "timestamp": "2026-10-03T20:42:33.822Z",
+          "remarks": "Routed to HOD office."
+        },
+        {
+          "action": "Approved & Completed",
+          "previousStatus": "Assigned",
+          "newStatus": "Completed",
+          "changedBy": "Prof. Anjali Mehta",
+          "timestamp": "2026-10-06T00:42:33.822Z",
+          "remarks": "Medical verified and approved."
+        }
+      ],
+      "_id": "req-004"
+    },
+    {
+      "id": "req-005",
+      "requestId": "REQ-20261004-005",
+      "studentId": "usr-stu-3",
+      "studentName": "Rohit Verma",
+      "studentEmail": "rohit@student.edu",
+      "studentRoll": "STU-2024-108",
+      "serviceName": "ID Card Request",
+      "subject": "Lost Smart ID Card - Reissuance Request",
+      "description": "Lost ID card in campus cafeteria yesterday. Paid fee receipt attached.",
+      "department": "Administration Department",
+      "assignedTo": {
+        "name": "Unassigned",
+        "role": "",
+        "department": ""
+      },
+      "priority": "Normal",
+      "status": "Pending",
+      "location": "Student Affairs Counter",
+      "attachmentName": "fee_receipt.pdf",
+      "estimatedCompletion": "2026-10-09T08:42:33.822Z",
+      "completedAt": null,
+      "remarks": "",
+      "createdAt": "2026-10-06T03:42:33.822Z",
+      "updatedAt": "2026-10-06T03:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Rohit Verma",
+          "timestamp": "2026-10-06T03:42:33.822Z",
+          "remarks": "Submitted for ID section review."
+        }
+      ],
+      "_id": "req-005"
+    },
+    {
+      "id": "req-006",
+      "requestId": "REQ-20261005-006",
+      "studentId": "usr-stu-3",
+      "studentName": "Rohit Verma",
+      "studentEmail": "rohit@student.edu",
+      "studentRoll": "STU-2024-108",
+      "serviceName": "Library Service",
+      "subject": "Access Request for IEEE Xplore Archive Portal",
+      "description": "Need institutional remote login credentials for mechanical thermal journals.",
+      "department": "Library Department",
+      "assignedTo": {
+        "name": "Mr. David Paul",
+        "role": "Chief Librarian",
+        "department": "Library Department"
+      },
+      "priority": "Normal",
+      "status": "Assigned",
+      "location": "Central Library, 2nd Floor",
+      "attachmentName": "",
+      "estimatedCompletion": "2026-10-07T08:42:33.822Z",
+      "completedAt": null,
+      "remarks": "Checking student active registration status.",
+      "createdAt": "2026-10-05T10:42:33.822Z",
+      "updatedAt": "2026-10-05T18:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Rohit Verma",
+          "timestamp": "2026-10-05T10:42:33.822Z",
+          "remarks": "Digital library request initiated."
+        },
+        {
+          "action": "Assigned",
+          "previousStatus": "Pending",
+          "newStatus": "Assigned",
+          "changedBy": "Dr. Admin Sharma",
+          "timestamp": "2026-10-05T18:42:33.822Z",
+          "remarks": "Assigned to Mr. David Paul."
+        }
+      ],
+      "_id": "req-006"
+    },
+    {
+      "id": "req-007",
+      "requestId": "REQ-20261001-007",
+      "studentId": "usr-stu-4",
+      "studentName": "Sarah Jenkins",
+      "studentEmail": "sarah@student.edu",
+      "studentRoll": "STU-2025-015",
+      "serviceName": "Maintenance Request",
+      "subject": "Air Conditioning failure in IT Server Room B",
+      "description": "Server room temperature rising above 28C. Critical cooling unit #2 not kicking in.",
+      "department": "Maintenance Department",
+      "assignedTo": {
+        "name": "HVAC Emergency Team",
+        "role": "Cooling Specialist",
+        "department": "Maintenance Department"
+      },
+      "priority": "Urgent",
+      "status": "In Progress",
+      "location": "IT Building - Server Room B",
+      "attachmentName": "temp_log.png",
+      "estimatedCompletion": "2026-10-06T02:42:33.822Z",
+      "completedAt": null,
+      "remarks": "Parts dispatched. Escalation alert active due to server temperature risk.",
+      "createdAt": "2026-10-04T04:42:33.822Z",
+      "updatedAt": "2026-10-06T06:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Sarah Jenkins",
+          "timestamp": "2026-10-04T04:42:33.822Z",
+          "remarks": "Critical facility notice filed."
+        },
+        {
+          "action": "Assigned",
+          "previousStatus": "Pending",
+          "newStatus": "Assigned",
+          "changedBy": "System Auto-Router",
+          "timestamp": "2026-10-04T06:42:33.822Z",
+          "remarks": "Dispatched to HVAC Emergency Team."
+        },
+        {
+          "action": "Status Updated",
+          "previousStatus": "Assigned",
+          "newStatus": "In Progress",
+          "changedBy": "HVAC Emergency Team",
+          "timestamp": "2026-10-05T02:42:33.822Z",
+          "remarks": "Compressor bypass initiated."
+        },
+        {
+          "action": "Escalation Triggered",
+          "previousStatus": "In Progress",
+          "newStatus": "In Progress",
+          "changedBy": "System Watchdog",
+          "timestamp": "2026-10-06T03:42:33.822Z",
+          "remarks": "⚠️ Resolution time exceeded SLA threshold. Department Head notified."
+        }
+      ],
+      "_id": "req-007"
+    },
+    {
+      "id": "req-008",
+      "requestId": "REQ-20261005-008",
+      "studentId": "usr-stu-4",
+      "studentName": "Sarah Jenkins",
+      "studentEmail": "sarah@student.edu",
+      "studentRoll": "STU-2025-015",
+      "serviceName": "Other College Service",
+      "subject": "Lost Smart Watch in Sports Complex",
+      "description": "Black Garmin smartwatch left behind near Badminton Court 2 on Tuesday evening.",
+      "department": "General Administration",
+      "assignedTo": {
+        "name": "Unassigned",
+        "role": "",
+        "department": ""
+      },
+      "priority": "Normal",
+      "status": "Pending",
+      "location": "Indoor Sports Arena",
+      "attachmentName": "",
+      "estimatedCompletion": "2026-10-08T08:42:33.822Z",
+      "completedAt": null,
+      "remarks": "",
+      "createdAt": "2026-10-06T00:42:33.822Z",
+      "updatedAt": "2026-10-06T00:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Sarah Jenkins",
+          "timestamp": "2026-10-06T00:42:33.822Z",
+          "remarks": "Claim filed with security and campus helpdesk."
+        }
+      ],
+      "_id": "req-008"
+    },
+    {
+      "id": "req-009",
+      "requestId": "REQ-20260928-009",
+      "studentId": "usr-stu-1",
+      "studentName": "Alex Morgan",
+      "studentEmail": "alex@student.edu",
+      "studentRoll": "STU-2024-001",
+      "serviceName": "Certificate Request",
+      "subject": "Medium of Instruction Certificate",
+      "description": "Required for university exchange semester in Germany.",
+      "department": "Administration Department",
+      "assignedTo": {
+        "name": "Ms. Sunita Rao",
+        "role": "Head Registrar",
+        "department": "Administration Department"
+      },
+      "priority": "Normal",
+      "status": "Completed",
+      "location": "Admin Office",
+      "attachmentName": "admission_letter.pdf",
+      "estimatedCompletion": "2026-09-30T12:42:33.822Z",
+      "completedAt": "2026-10-01T08:42:33.822Z",
+      "remarks": "Signed by Principal and seal affixed. Handed over.",
+      "createdAt": "2026-09-28T20:42:33.822Z",
+      "updatedAt": "2026-10-01T08:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Alex Morgan",
+          "timestamp": "2026-09-28T20:42:33.822Z",
+          "remarks": "Submitted request."
+        },
+        {
+          "action": "Completed",
+          "previousStatus": "In Progress",
+          "newStatus": "Completed",
+          "changedBy": "Ms. Sunita Rao",
+          "timestamp": "2026-10-01T08:42:33.822Z",
+          "remarks": "Issued and signed."
+        }
+      ],
+      "_id": "req-009"
+    },
+    {
+      "id": "req-010",
+      "requestId": "REQ-20261006-010",
+      "studentId": "usr-stu-2",
+      "studentName": "Priya Patel",
+      "studentEmail": "priya@student.edu",
+      "studentRoll": "STU-2024-042",
+      "serviceName": "Lab Equipment Request",
+      "subject": "Oscilloscope Calibration Kit for VLSI Lab",
+      "description": "Bench #7 oscilloscope requires channel 2 calibration kit and BNC probe connectors.",
+      "department": "Laboratory Department",
+      "assignedTo": {
+        "name": "Dr. K. Raman",
+        "role": "Lab In-Charge",
+        "department": "Laboratory Department"
+      },
+      "priority": "Normal",
+      "status": "Assigned",
+      "location": "Electronics Block, Room 104",
+      "attachmentName": "",
+      "estimatedCompletion": "2026-10-07T20:42:33.822Z",
+      "completedAt": null,
+      "remarks": "Scheduled for routine Tuesday calibration window.",
+      "createdAt": "2026-10-06T05:42:33.822Z",
+      "updatedAt": "2026-10-06T06:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Priya Patel",
+          "timestamp": "2026-10-06T05:42:33.822Z",
+          "remarks": "Calibration request logged."
+        },
+        {
+          "action": "Assigned",
+          "previousStatus": "Pending",
+          "newStatus": "Assigned",
+          "changedBy": "Dr. Admin Sharma",
+          "timestamp": "2026-10-06T06:42:33.822Z",
+          "remarks": "Assigned to Dr. K. Raman."
+        }
+      ],
+      "_id": "req-010"
+    },
+    {
+      "id": "req-011",
+      "requestId": "REQ-20261006-011",
+      "studentId": "usr-stu-3",
+      "studentName": "Rohit Verma",
+      "studentEmail": "rohit@student.edu",
+      "studentRoll": "STU-2024-108",
+      "serviceName": "Maintenance Request",
+      "subject": "Broken Door Hinge in Mechanical Workshop 2",
+      "description": "Heavy metal safety door hinge cracked and poses hazard during machinery operation.",
+      "department": "Maintenance Department",
+      "assignedTo": {
+        "name": "Unassigned",
+        "role": "",
+        "department": ""
+      },
+      "priority": "Urgent",
+      "status": "Pending",
+      "location": "Workshop Block B",
+      "attachmentName": "door_hinge.jpg",
+      "estimatedCompletion": "2026-10-06T20:42:33.822Z",
+      "completedAt": null,
+      "remarks": "",
+      "createdAt": "2026-10-06T07:42:33.822Z",
+      "updatedAt": "2026-10-06T07:42:33.822Z",
+      "history": [
+        {
+          "action": "Created",
+          "previousStatus": null,
+          "newStatus": "Pending",
+          "changedBy": "Rohit Verma",
+          "timestamp": "2026-10-06T07:42:33.822Z",
+          "remarks": "Urgent maintenance ticket created."
+        }
+      ],
+      "_id": "req-011"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif-1791282201447-285",
+      "id": "notif-1791282201447",
+      "userId": "usr-stu-1",
+      "message": "Your request REQ-20261006-800 (dfflk) has been successfully submitted. Initial status: Pending.",
+      "requestId": "REQ-20261006-800",
+      "type": "info",
+      "read": false,
+      "createdAt": "2026-10-06T10:23:21.447Z"
+    },
+    {
+      "_id": "notif-1791281977032-694",
+      "id": "notif-1791281977032",
+      "userId": "usr-stu-1",
+      "message": "Your request REQ-20261006-563 (bonafaid certificate) has been successfully submitted. Initial status: Pending.",
+      "requestId": "REQ-20261006-563",
+      "type": "info",
+      "read": false,
+      "createdAt": "2026-10-06T10:19:37.032Z"
+    },
+    {
+      "_id": "notif-1791278973299-467",
+      "id": "notif-1791278973299",
+      "userId": "usr-1791278874193-648",
+      "message": "Your request REQ-20261006-926 (Bonafaid certificate) has been successfully submitted. Initial status: Pending.",
+      "requestId": "REQ-20261006-926",
+      "type": "info",
+      "read": false,
+      "createdAt": "2026-10-06T09:29:33.299Z"
+    },
+    {
+      "_id": "notif-1791278302622-42",
+      "id": "notif-1791278302622",
+      "userId": "usr-1791278302394-88",
+      "message": "Your request REQ-20261006-863 status changed to Completed. Remark: \"Workstation handover completed.\"",
+      "requestId": "REQ-20261006-863",
+      "type": "success",
+      "read": false,
+      "createdAt": "2026-10-06T09:18:22.622Z"
+    },
+    {
+      "_id": "notif-1791278302617-522",
+      "id": "notif-1791278302617",
+      "userId": "usr-1791278302394-88",
+      "message": "Your request REQ-20261006-863 status changed to In Progress. Remark: \"Hardware provisioned and setup in progress.\"",
+      "requestId": "REQ-20261006-863",
+      "type": "info",
+      "read": false,
+      "createdAt": "2026-10-06T09:18:22.617Z"
+    },
+    {
+      "_id": "notif-1791278302611-538",
+      "id": "notif-1791278302611",
+      "userId": "usr-1791278302394-88",
+      "message": "Your request REQ-20261006-863 has been assigned to Laboratory Department (Dr. K. Raman).",
+      "requestId": "REQ-20261006-863",
+      "type": "info",
+      "read": false,
+      "createdAt": "2026-10-06T09:18:22.611Z"
+    },
+    {
+      "_id": "notif-1791278302508-428",
+      "id": "notif-1791278302508",
+      "userId": "usr-1791278302394-88",
+      "message": "Your request REQ-20261006-863 (GPU Workstation Allocation for Thesis) has been successfully submitted. Initial status: Pending.",
+      "requestId": "REQ-20261006-863",
+      "type": "info",
+      "read": false,
+      "createdAt": "2026-10-06T09:18:22.508Z"
+    },
+    {
+      "id": "notif-1",
+      "userId": "usr-stu-1",
+      "message": "Your request REQ-20261001-001 has been assigned to Administration Department (Ms. Sunita Rao).",
+      "requestId": "REQ-20261001-001",
+      "type": "info",
+      "read": true,
+      "createdAt": "2026-10-05T12:42:33.822Z",
+      "_id": "notif-1"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-stu-1",
+      "message": "Your request REQ-20261002-002 has been marked as Completed by Dr. K. Raman.",
+      "requestId": "REQ-20261002-002",
+      "type": "success",
+      "read": true,
+      "createdAt": "2026-10-05T22:42:33.822Z",
+      "_id": "notif-2"
+    },
+    {
+      "id": "notif-3",
+      "userId": "usr-stu-2",
+      "message": "Your request REQ-20261004-004 (Medical Leave) has been approved and Completed.",
+      "requestId": "REQ-20261004-004",
+      "type": "success",
+      "read": true,
+      "createdAt": "2026-10-06T00:42:33.822Z",
+      "_id": "notif-3"
+    },
+    {
+      "id": "notif-4",
+      "userId": "usr-stu-4",
+      "message": "⚠️ Notice: Request REQ-20261001-007 (Server Room AC) is currently overdue and has been escalated.",
+      "requestId": "REQ-20261001-007",
+      "type": "escalation",
+      "read": false,
+      "createdAt": "2026-10-06T03:42:33.822Z",
+      "_id": "notif-4"
+    }
+  ]
+}
