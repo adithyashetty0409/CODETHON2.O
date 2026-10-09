@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 Smart Campus Service Management System (SMS)
 **College Codethon 2026 Submission**
 
@@ -245,3 +246,7 @@ NODE_ENV=development
 2. **QR Code Verification**: QR stamp on completed Bonafide and Transcript certificates for tamper-proof physical verification.
 3. **Multi-Campus Multi-Tenancy**: Separate department routing for satellite university campuses.
 4. **Predictive SLA Estimations**: Machine learning model estimating resolution times based on historical technician workloads.
+=======
+# CODETHON2.O
+Smart Campus Service Management System 
+>>>>>>> edbdf3df87d2c31ff94631aac97e2c82edae6388
